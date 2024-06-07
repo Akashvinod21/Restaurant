@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    overflow-x: hidden;
+    
    background-image: url('https://wallpaper.dog/large/17113076.jpg');
    background-position: center;
    background-size: contain;
@@ -50,7 +50,7 @@ body{
 
 ul li{
     list-style: none;
-    display: inline;
+    display: inline-flex;
     margin: 10px 21px;
    
 }
@@ -127,10 +127,9 @@ ul li{
 }
 
 .i1{
-   margin-top: 630px;
-    margin-left: 840px;
+  
     font-size: 60px;
-    position:absolute;
+    
    
 
 }
@@ -140,7 +139,7 @@ ul li{
 }
 
 .i1 i{
-    position: relative;
+    
     animation: move 0.5s infinite;
 }
 @keyframes move{
@@ -177,14 +176,14 @@ ul li{
 
 /* -------------------------------------------------------------------------- */
  #menu{
-    margin-top: 200px;
+    margin-top: 180px;
  }  
 
 .menucolumn{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 20px; 
-    padding: 20px;
+    margin-right: 5%; 
+    
    
 }
 
@@ -215,7 +214,7 @@ ul li{
     width: 500px;
     padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 80px;
+    margin-left: 10%;
 }
 .display-menu h3{
     display: flex;
@@ -264,13 +263,13 @@ ul li{
 
 /* ------------------------------------------------------------------ */
 #deal{
-    margin-top: 100px;  
+    margin-top: 120px;  
 }
 .dod{
     border: 3px solid rgb(77, 11, 11);
     border-radius: 20px;
   
-   height: 700px;
+   height: 100vh;
     margin-top: 50px;
     padding: 20px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -364,11 +363,11 @@ ul li{
 /* --------------------------------------------------------------------- */
 
 #contacts{
-    margin-top: 50px;
+    margin-top: 1px;
 }
 
 .c1{
-    height: 700px;
+    height: 100vh;
     
     border: 3px solid rgb(45, 7, 7);
     display: flex;
